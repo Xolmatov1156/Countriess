@@ -1,10 +1,14 @@
 :root {
   --logo-color: black;
   --bg-color: white;
-  --bg-input: white;
   --dark-btn: black;
   --input-clr: black;
   --select-clr: #2B3844;
+  --bg-clr: white;
+}
+
+body {
+  background-color: var(--bg-color);
 }
 
 header {
@@ -29,9 +33,6 @@ header a {
   color: var(--dark-btn);
 }
 
-main {
-  background-color: var(--bg-clr);
-}
 
 .mode {
   --logo-color: white;
@@ -43,10 +44,6 @@ main {
   --select-clr: white;
 }
 
-::placeholder {
-  color: white;
-}
-
 .search_input {
   background-color: var(--bg-input);
   color: var(--input-clr);
@@ -55,10 +52,10 @@ main {
 
 option {
   color: var(--select-clr);
-  background-color: var(--bg-color);
+  background-color: var(--bg-clr);
 }
 
 .countries_select {
   color: var(--select-clr);
-  background-color: var(--bg-color);
+  background-color: var(--bg-clr);
 }
