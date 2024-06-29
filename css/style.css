@@ -1,0 +1,64 @@
+:root {
+  --logo-color: black;
+  --bg-color: white;
+  --bg-input: white;
+  --dark-btn: black;
+  --input-clr: black;
+  --select-clr: #2B3844;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--bg-clr);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header i {
+  padding-left: 2px;
+}
+
+header a {
+  color: var(--logo-color);
+}
+
+.dark_mode {
+  color: var(--dark-btn);
+}
+
+main {
+  background-color: var(--bg-clr);
+}
+
+.mode {
+  --logo-color: white;
+  --bg-color: #202C36;
+  --bg-clr: #2B3844;
+  --dark-btn: white;
+  --input-clr: white;
+  --bg-input: #2B3844;
+  --select-clr: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.search_input {
+  background-color: var(--bg-input);
+  color: var(--input-clr);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+option {
+  color: var(--select-clr);
+  background-color: var(--bg-color);
+}
+
+.countries_select {
+  color: var(--select-clr);
+  background-color: var(--bg-color);
+}
